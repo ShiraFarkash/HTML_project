@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="s1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+</head>
+<body>
+    <div class="logo" style="text-align:center ; margin-left:15px"> <img src="pic.png" alt="Alternate Text"> </div>
+
+    <div class="menu" style="text-align:center">
+        <a href=" p1.html" class="thisPage" id="a1"> בית</a>
+        <a href=" p2.html" id="a2"> אודות</a>
+        <a href=" סניפים.html" id="a2"> סניפים</a>
+        <a href=" p3.html" id="a4" style=" background-color: #cba643"> צור קשר</a>
+        <div class="dropdown">
+            <a href=" #" id="a3"> תכשיטים</a>
+            <div class="details">
+                <ul>
+                    <li> <a href="p5.html"> עגילים</a> </li>
+                    <li> <a href="p6.html"> טבעות</a> </li>
+                    <li> <a href="p4.html">אקססוריז</a> </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+    <br />
+    <br />
+
+    <span class="top" style="margin-top:20px" :>צור קשר</span>
+
+    
+    <div class="mainforcontect">
+        <div class="center" style="display:inline-block;background-color:rgba(211, 191, 141, 0.69)">
+
+            <div class="contact">
+                <h3>צרו קשר</h3>
+            </div>
+            <div class="contact">
+                <p>תשאלו אותנו כל מה שתרצו ואנחנו מבטיחים לחזור אליכם במהירות האפשרית.</p>
+            </div>
+            <form>
+                <p>
+                    <label>
+                        <br />
+                        <input type="text" name="fullname" class="fill"
+                               value size="40 " aria-required="true" aria-invalid="false"
+                               placeholder="שם מלא*" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <br />
+                        <input type="tel" name="tell" class="fill"
+                               value size="40 " aria-required="true" aria-invalid="false"
+                               placeholder="טלפון*" />
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <br />
+                        <input type="email" name="email" class="fill"
+                               value size="40 " aria-required="true" aria-invalid="false"
+                               placeholder="דואל*" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <br />
+                        <input type="number" name="order-number" class="fill"
+                               aria-required="true" aria-invalid="false" min="1"
+                               placeholder="מספר הזמנה*" />
+                    </label>
+                </p>
+                <br />
+                <label for="city" class="fill">בחר אזור מגורים:</label><br />
+                <input list="city" name="city" class="fill" style="text-align:right">
+                <datalist id="city">
+                    <option value="מרכז">
+                    <option value="צפון">
+                    <option value="דרום">
+                </datalist>
+
+                <p>
+                    <label>
+                        <br />
+                        <span>
+                            <textarea class="filltext" name="free-message" cols="40" rows="10" placeholder="טקסט חופשי"></textarea>
+                        </span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <br />
+                        <input style="background-color: #d6b96b;" class="btn-send" type="submit" name="send" onclick=" alert('נשלח בהצלחה')"
+                               value="שלח " />
+                        <input style="background-color: #d6b96b;" class="btn-send" type="reset" name="reset"
+                               value="איפוס " />
+                    </label>
+                </p>
+            </form>
+
+        </div>
+        <!-- </div>-->
+        <div style="display:flex">
+            <div class="next">
+
+                <div class="emp"></div>
+
+                <div class="emp">
+                    <img src="phone.png" alt="Alternate Text" style="color:black;" /> <p > 077-3647756</p>
+                </div>
+
+                <div class="emp"></div>
+
+            </div>
+            <div class="next">
+                <div class="emp"><img src="map.png" alt="Alternate Text" /><p >המנהרה 16 (בית בכר) הרצליה, ישראל</p> </div>
+                <div class="emp"></div>
+                <div class="emp"> <img src="clock.png" alt="Alternate Text" /><p ><br />שעות מענה טלפוני: <br />א'-ה': 9:00-17:00 <br />איסופים ותיקונים: <br />א'-ה': 10:00-17:45  </div></p>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="me">
+                <p>
+                    All the rights recervet to Shira Miriam Farkash
+                    <br /> since 02/01/21
+                </p>
+            </div>
+        </footer>
+    </body>
+    </html>
